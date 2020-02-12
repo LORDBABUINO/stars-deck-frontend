@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-
+import { Link } from 'react-router-dom'
 import { FaPlus } from 'react-icons/fa'
 
 import api from '../../services/api'
@@ -24,9 +24,11 @@ export default function Home() {
           <Event key={event.id} event={event} />
         ))}
       </EventList>
-      <Button>
-        <FaPlus color="#39a3db" size="25" />
-      </Button>
+      <Link to="/create-event">
+        <Button type="button">
+          <FaPlus color="#39a3db" size="25" />
+        </Button>
+      </Link>
     </>
   )
 }

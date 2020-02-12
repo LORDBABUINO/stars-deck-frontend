@@ -1379,6 +1379,11 @@
     semver "^6.3.0"
     tsutils "^3.17.1"
 
+"@ungap/global-this@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@ungap/global-this/-/global-this-0.3.1.tgz#e37e005301c64484a61eed90305210bf078a4bc5"
+  integrity sha512-6gxLxSsXmt3XcC2p0mRjeHOtZemfs/IswAyWJZU0b8UvCQAegRpjSrQK0Y+u3OQQ3V0ZYQkHVCV9V3dxnlJ5Zw==
+
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.8.5.tgz#51b1c5fe6576a34953bf4b253df9f0d490d9e359"
@@ -5015,6 +5020,13 @@ ignore@^4.0.6:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-4.0.6.tgz#750e3db5862087b4737ebac8207ffd1ef27b25fc"
   integrity sha512-cyFDKrqc/YdcWFniJhzI42+AzS+gNwmUzOSFcRCQYwySuBBBy/KjuxWLZ/FHEH6Moq1NizMOBWyTcv8O4OZIMg==
 
+imask@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/imask/-/imask-6.0.1.tgz#081b3cd90339ff5108e2110d686a1618bbad5331"
+  integrity sha512-UjsrfPtc+9eTOsaeWE76BTG0m7ZmjYdAe8tpvfmTfNBK9nk+h5cmCtXn/fUpBQ+Ggi2vG8Rovpki7l8Cs/JJkQ==
+  dependencies:
+    "@ungap/global-this" "^0.3.1"
+
 immer@1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/immer/-/immer-1.10.0.tgz#bad67605ba9c810275d91e1c2a47d4582e98286d"
@@ -8391,6 +8403,14 @@ react-icons@^3.9.0:
   integrity sha512-gKbYKR+4QsD3PmIHLAM9TDDpnaTsr3XZeK1NTAb6WQQ+gxEdJ0xuCgLq0pxXdS7Utg2AIpcVhM1ut/jlDhcyNg==
   dependencies:
     camelcase "^5.0.0"
+
+react-imask@^6.0.1:
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/react-imask/-/react-imask-6.0.1.tgz#45f4986de098ed4337bb2b8928e6077aa44f504e"
+  integrity sha512-Gc8ghqszAJQ/XJEoxuAYSzESjy/wmkNShi/G/IkbIBZ6UK4pPidlC3B5wsk1n+u27U+1V0LFGKu7L5MbIUJWuw==
+  dependencies:
+    imask "^6.0.1"
+    prop-types "^15.7.2"
 
 react-is@^16.6.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.12.0"

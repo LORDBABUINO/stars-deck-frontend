@@ -1,3 +1,3 @@
 import styled from 'styled-components'
 
-export const EventList = styled.ul``
+export const Container = styled.li``
